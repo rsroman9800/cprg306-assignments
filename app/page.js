@@ -10,6 +10,11 @@ export default function Page() {
             Week 2 Assignment
           </Link>
         </li>
+        <li className="text-xl hover:underline">
+          <Link href="/week-3">
+          Week 3 Assignment
+          </Link>
+        </li>
     </main>
   );
 }
