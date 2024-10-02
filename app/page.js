@@ -21,11 +21,6 @@ export default function Page() {
           </Link>
         </li>
         <li className="text-xl hover:underline">
-          <Link href="/week-5-demo">
-          Week 5 Demo
-          </Link>
-        </li>
-        <li className="text-xl hover:underline">
           <Link href="/week-5">
           Week 5 Assignment
           </Link>
