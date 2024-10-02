@@ -78,7 +78,12 @@ export default function GroceryComponent()
                 </button>
             </div>
 
-            <select id="category" className="border border-black m-2 text-black rounded">
+            <select 
+                id="category" 
+                value={category}
+                onChange={(event) => setCategory(event.target.value)}
+                className="border border-black m-2 text-black rounded"
+            >
                 <option value="" disabled>Category</option>
                 <option value="produce">Produce</option>
                 <option value="dairy">Dairy</option>
